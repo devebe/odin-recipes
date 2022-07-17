@@ -1,12 +1,26 @@
 * {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto", "PT Sans", Arial, sans-serif;
     font-size: 1rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-weight: 400;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
 }
 
 img {
@@ -28,11 +42,11 @@ li {
 }
 
 a {
-    color: #2175d9;
+    color: #0A5DCF;
     text-decoration: none;
 }
 
 a:hover {
-    color: #2e2e2e;
-    border-bottom: 0.2em solid #ff6500;
+    color: #640ACF;
+    border-bottom: 0.15rem solid;
 }
