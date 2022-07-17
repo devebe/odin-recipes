@@ -1,13 +1,17 @@
 * {
-    font-family: "Roboto", "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", "Roboto", Arial, sans-serif;
     font-size: 1rem;
-    list-style: 150%;
+    line-height: 150%;
     font-weight: 400;
 }
 
 .wrapper {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    font-size: 1.125rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,8 +29,8 @@ h2 {
 }
 
 img {
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 100%;
     object-fit: cover;
     border-radius: 0.25em;
 }
@@ -35,11 +39,14 @@ ul, ol {
     background-color: #ebebeb;
     padding-top: 1em;
     padding-bottom: 2em;
-    border-radius: 0.25em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.5em;
 }
 
 li {
     margin-top: 1em;
+    padding-left: 0.5em;
 }
 
 a {
